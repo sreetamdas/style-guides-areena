@@ -1,4 +1,5 @@
 import data from "./all-scrapped.json";
+import "./style.css";
 
 const tableBody = document
 	.getElementById("main-table")
