@@ -66,8 +66,8 @@ body {
 	border-collapse: collapse;
 }
 
-#main-table tbody tr td,
-#main-table thead tr th {
+#main-table thead tr th,
+#main-table tbody tr td {
 	border: 1px solid black;
 	padding: 5px;
 }
@@ -82,14 +82,20 @@ body {
 	border-right-color: #fff;
 }
 
+#main-table thead tr th:first-child,
 #main-table tbody tr td:first-child {
 	font-weight: 600;
+	width: 10vw;
 	max-width: 10vw;
 }
+#main-table thead tr th:nth-child(2),
 #main-table tbody tr td:nth-child(2) {
+	width: 75vw;
 	max-width: 75vw;
 	word-break: break-word;
 }
+#main-table thead tr th:nth-child(3),
 #main-table tbody tr td:nth-child(3) {
+	width: 10vw;
 	max-width: 10vw;
 }
